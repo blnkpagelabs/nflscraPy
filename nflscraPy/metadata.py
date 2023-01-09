@@ -1,6 +1,6 @@
 import requests, pandas, time, random, re
 from bs4 import BeautifulSoup, Comment
-from xTms import tms
+from constants import tms
 
 
 def _season_and_event_date(

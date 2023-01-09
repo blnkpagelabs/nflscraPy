@@ -6,3 +6,4 @@ from .roster import _gamelog_roster
 from .snap_counts import _gamelog_snap_counts
 from .splits import _season_splits
 from .five_thirty_eight import _five_thirty_eight
+from .constants import tms

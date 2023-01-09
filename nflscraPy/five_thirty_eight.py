@@ -1,5 +1,5 @@
 import pandas, numpy, requests, io, random, time
-from xTms import tms
+from constants import tms
 
 
 def _standardized_by_tag(

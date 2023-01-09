@@ -1,6 +1,6 @@
 import requests, pandas, time, random
 from bs4 import BeautifulSoup
-from xTms import tms
+from constants import tms
 
 
 def _standardized_with_side(
