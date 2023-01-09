@@ -1,5 +1,5 @@
 import pandas, numpy, requests, io, random, time
-from teams import _tms
+from .teams import _tms
 
 
 def _standardized_by_tag(

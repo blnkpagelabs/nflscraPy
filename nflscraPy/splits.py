@@ -1,6 +1,6 @@
 import requests, pandas, time, random, numpy
 from bs4 import BeautifulSoup, Comment
-from teams import _tms
+from .teams import _tms
 
 
 def _standardized(

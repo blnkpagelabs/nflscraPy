@@ -1,6 +1,6 @@
 import requests, pandas, time, random
 from bs4 import BeautifulSoup
-from teams import _tms
+from .teams import _tms
 
 
 def _standardized_with_side(
