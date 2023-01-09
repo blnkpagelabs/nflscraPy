@@ -1,11 +1,13 @@
 import pandas, numpy, requests, io, random, time
-from constants import tms
+from teams import _tms
 
 
 def _standardized_by_tag(
     tag,
     reference_team,
 ):
+
+    tms = _tms()
 
     by_tag = tms.get(
         reference_team.lower(), {}

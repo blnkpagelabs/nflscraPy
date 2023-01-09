@@ -1,12 +1,14 @@
 import requests, pandas, time, random
 from bs4 import BeautifulSoup
-from constants import tms
+from teams import _tms
 
 
 def _standardized_with_side(
     tm_or_opp,
     reference_team,
 ):
+
+    tms = _tms()
 
     tm_tags = (
         'nano',

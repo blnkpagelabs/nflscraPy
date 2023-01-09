@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.3' 
+VERSION = '0.1.0' 
 DESCRIPTION = "Datasets and Scraping Functions for NFL Data"
 LONG_DESCRIPTION = """
 This package was inspired by the creators of nflscrapR and nflfastR and 

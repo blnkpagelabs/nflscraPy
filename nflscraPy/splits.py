@@ -1,11 +1,13 @@
 import requests, pandas, time, random, numpy
 from bs4 import BeautifulSoup, Comment
-from constants import tms
+from teams import _tms
 
 
 def _standardized(
     reference_team,
 ):
+
+    tms = _tms()
 
     tm_tags = (
         'nano',

@@ -1,6 +1,6 @@
 import requests, pandas, time, random, re
 from bs4 import BeautifulSoup
-from constants import tms
+from teams import _tms
 
 
 def _season_and_event_date(
@@ -33,6 +33,8 @@ def _standardized(
     reference_team,
 ):
 
+    tms = _tms()
+
     tm_tags = (
         'nano',
         'market',
@@ -56,6 +58,8 @@ def _standardized_with_side(
     tm_or_opp,
     reference_team,
 ):
+
+    tms = _tms()    
 
     tm_tags = (
         'nano',
