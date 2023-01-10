@@ -4,9 +4,9 @@ This package was inspired by the creators of `nflscrapR` and `nflfastR` and
 the tremendous influence they have had on the open-source NFL community
 
 The functionality of `nflscraPy` was designed to allow Python users to easily ingest boxscore and 
-seasonal data from publicly available resourses, in particular, Pro Football Reference
+seasonal data from publicly available resources - in particular, Pro Football Reference
 
-Hopefully this package builds upon the availabilty of open-source resources for the football and data analytics community
+Hopefully, this package builds upon the availabilty of open-source resources for the football and data analytics community
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)
 
@@ -18,9 +18,9 @@ Hopefully this package builds upon the availabilty of open-source resources for 
 
 ## Request Limits
 
-To Be Respectful of Pro Football Reference's Servers Each Function Incorporates Sleeps Between 3.5 to 5.5 Seconds After Every Request
+To be respectful of Pro Football Reference's servers each function incorporates sleeps between 3.5 to 5.5 seconds after every request
 
-Remove or Reduce these Intervals at Your Own Risk – Sports Reference & Cloudflare will Temporarily/Permanently Suspend Access if you Throttle Their Servers
+Remove or reduce these intervals at your own risk – Pro Football Reference & Cloudflare will temporarily/permanently suspend access if you throttle their servers
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)
 
@@ -50,7 +50,7 @@ season_gamelogs = nflscraPy._gamelogs(
 
 ### Description:
 
-Returns all Gamelogs & Boxscore Stats Links for every NFL Season
+Returns all Gamelogs & Boxscore Stats Links for every NFL season
 
 ### History:
 
