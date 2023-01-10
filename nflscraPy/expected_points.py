@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup, Comment
 from .teams import _tms
 
 
-
 def _season_and_event_date(
     boxscore_stats_link,
 ):
