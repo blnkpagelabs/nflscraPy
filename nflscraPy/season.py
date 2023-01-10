@@ -264,8 +264,8 @@ def _gamelogs(
     if res.status_code == 200:
 
         sleeptime = random.uniform(
-            2.5, 
-            3.5,
+            3.5, 
+            5.5,
         )
         time.sleep(
             sleeptime

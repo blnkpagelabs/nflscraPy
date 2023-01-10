@@ -1,6 +1,7 @@
 from .season import _gamelogs
 from .metadata import _gamelog_metadata
 from .stats import _gamelog_statistics
+from .expected_points import _gamelog_expected_points
 from .scoring import _gamelog_scoring
 from .roster import _gamelog_roster
 from .snap_counts import _gamelog_snap_counts

@@ -437,11 +437,13 @@ def _gamelog_metadata(
         boxscore_stats_link
     )
     
+    dlist = []
+
     if res.status_code == 200:        
         
         sleeptime = random.uniform(
-            2.5, 
-            3.5,
+            3.5, 
+            5.5,
         )
         time.sleep(
             sleeptime
@@ -576,15 +578,19 @@ def _gamelog_metadata(
                                 **weather,
                             }
 
-    metadata = {
-        **season_and_event_date,
-        **tm_standardized,
-        **opp_standardized,
-        **meta,
-    }
+        metadata = {
+            **season_and_event_date,
+            **tm_standardized,
+            **opp_standardized,
+            **meta,
+        }
 
-    dset = pandas.DataFrame([
-        metadata
-    ])
+        dlist.append(
+            metadata
+        )
+
+    dset = pandas.DataFrame(
+        dlist
+    )
 
     return dset

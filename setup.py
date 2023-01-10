@@ -1,14 +1,11 @@
 from setuptools import setup, find_packages
+from pathlib import Path
 
-VERSION = '0.1.1' 
+VERSION = '0.1.3' 
 DESCRIPTION = "Datasets and Scraping Functions for NFL Data"
-LONG_DESCRIPTION = """
-This package was inspired by the creators of nflscrapR and nflfastR and 
-the tremendous influence they have had on the open-source NFL community. 
-The functionality of nflscraPy was designed to allow Python users to easily ingest boxscore and 
-seasonal data from publicly available resourses, in particular, Pro Football Reference.
-Hopefully this package builds upon the availabilty of open-source resources for the football and data analytics community.
-"""
+
+this_directory = Path(__file__).parent
+LONG_DESCRIPTION = (this_directory / "README.md").read_text()
 
 # Setting up
 setup(
