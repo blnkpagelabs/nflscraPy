@@ -400,7 +400,7 @@ def _tms():
         'jacksonville': {
             'market': 'Jacksonville',
             'name': 'Jaguars',
-            'alias': 'IND',
+            'alias': 'JAC',
             'nano': 'RtOjnciWkJPaL',
         },
         'jacksonville-jaguars': {
