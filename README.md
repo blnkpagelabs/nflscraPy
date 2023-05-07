@@ -35,6 +35,7 @@ Remove or reduce these intervals at your own risk – Pro Football Reference & 
 - [Snap Counts](#snap-counts)
 - [Season Splits](#season-splits)
 - [FiveThirtyEight](#fivethirtyeight)
+- [Madden Ratings](#madden-ratings)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)
 
@@ -1165,7 +1166,7 @@ The overall number is the average of the quality and importance values.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)
 
-## Seasons
+## Madden Ratings
 
 ```python
 
