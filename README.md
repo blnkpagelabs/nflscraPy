@@ -1162,3 +1162,365 @@ Importance measures how much the result will alter playoff projections – Based
 **`total_rating`**
 
 The overall number is the average of the quality and importance values.
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.png)
+
+## Seasons
+
+```python
+
+Scraper Unavailable
+
+```
+
+### Description:
+
+Returns all available Madden Ratings from the [Madden Database](https://www.ea.com/games/madden-nfl/player-ratings#ratings-database)
+
+### History:
+
+2021 to Present
+
+### Downloads:
+
+To Be Respectful of Madden's Servers Please Backfill and Forward Fill with Historic/Present Data Available in the Releases
+
+[Downloads](https://github.com/blnkpagelabs/nflscraPy/releases/tag/MaddenRatings)
+
+**`status`**
+
+The Status of the Madden Ratings
+
+**`season`**
+
+The Season's Year
+
+**`week`**
+
+The Week of the Game
+
+**`iteration_date`**
+
+The "as of" Publishing Date of the Madden Ratings
+
+The anchor point of each player's Madden Rating
+
+**`iteration`**
+
+The "as of" Publishing Week type of the Madden Ratings
+
+**`nano`**
+
+Madden's Team ID
+
+**`nano`**
+
+nflSlowPy Nano ID
+
+**`market`**
+
+nflSlowPy Market
+
+**`name`**
+
+nflSlowPy Name 
+
+**`alias`**
+
+nflSlowPy Alias
+
+**`player_first_name`**
+
+Player's First Name
+
+**`player_last_name`**
+
+Player's Last Name
+
+**`player_full_name`**
+
+Player's Full Name
+
+**`player_asset_name`**
+
+Player's Unique Madden Asset Name
+
+**`player_jersey`**
+
+Player's Jersey Number
+
+**`player_position`**
+
+Player's Primary Position
+
+**`player_archetype`**
+
+Player's Primary Position with Additional Specialized Attributes
+
+**`player_running_style`**
+
+Player's Running Style – Default indicates Average Stride
+
+**`player_handedness`**
+
+Player Handedness – Right or Left
+
+**`player_height`**
+
+Player Height in Inches
+
+**`player_weight`**
+
+Player Weight in Pounds
+
+**`player_age`**
+
+Player Age
+
+**`player_years_pro`**
+
+Number of Years Player was Pro
+
+**`player_college`**
+
+Player's College
+
+**`player_signing_bonus`**
+
+Player's Signing Bonus
+
+**`player_total_salary`**
+
+Player's Total Salary
+
+**`player_impact_value`**
+
+The Replacement Value of a Player Calculated Based on a Player's Overall Rating.
+
+Used to determine the "value" of a player's replacement due to Injury/Illnes//Etc.
+
+Formula from "Sharper: A Guide to Modern Sports Betting"
+
+player_impact_value = (overall_rating - 66) / 8
+
+**`overall_rating`**
+
+Player's Overall Madden Rating
+
+For Overall and All Ratings, the Higher the Rating the Better
+
+**`injury_rating`**
+
+Player's Injury Rating
+
+**`toughness_rating`**
+
+Player's Toughness Rating
+
+**`strength_rating`**
+
+Player's Strength Rating
+
+**`stamina_rating`**
+
+Player's Stamina Rating
+
+**`agility_rating`**
+
+Player's Agility Rating
+
+**`speed_rating`**
+
+Player's Speed Rating
+
+**`jumping_rating`**
+
+Player's Jumping Rating
+
+**`play_action_rating`**
+
+Player's Play Action Rating
+
+**`awareness_rating`**
+
+Player's Awareness Rating
+
+**`break_sack_rating`**
+
+Player's Break Sack Rating
+
+**`release_rating`**
+
+Player's Release Rating
+
+**`throw_power_rating`**
+
+Player's Throw Power Rating
+
+**`throw_accuracy_short_rating`**
+
+Player's Throw Accuracy Short Routes Rating
+
+**`throw_accuracy_mid_rating`**
+
+Player's Throw Accuracy Mid Routes Rating
+
+**`throw_accuracy_deep_rating`**
+
+Player's Throw Accuracy Deep Routes Rating
+
+**`throw_on_the_run_rating`**
+
+Player's Throw on the Run Rating
+
+**`throw_under_pressure_rating`**
+
+Player's Throw Under Pressure Rating
+
+**`trucking_rating`**
+
+Player's Trucking Rating
+
+**`carrying_rating`**
+
+Player's Carrying Rating
+
+**`juke_move_rating`**
+
+Player's Juke Move Rating
+
+**`break_tackle_rating`**
+
+Player's Break Tackle Rating
+
+**`change_of_direction_rating`**
+
+Player's Change of Direction Rating
+
+**`block_shedding_rating`**
+
+Player's Block Shedding Rating
+
+**`power_moves_rating`**
+
+Player's Power Moves Rating
+
+**`stiff_arm_rating`**
+
+Player's Stiff Arm Rating
+
+**`acceleration_rating`**
+
+Player's Acceleration Rating
+
+**`spin_move_rating`**
+
+Player's Spin Move Rating
+
+**`finesse_moves_rating`**
+
+Player's Finesse Moves Rating
+
+**`ball_carrier_vision_rating`**
+
+Player's Ball Carrier Vision Rating
+
+**`catching_rating`**
+
+Player's Catching Rating
+
+**`catch_in_traffic_rating`**
+
+Player's Catch in Traffic Rating
+
+**`spectacular_catch_rating`**
+
+Player's Spectacular Catch Rating
+
+**`short_route_running_rating`**
+
+Player's Short Route Running Rating
+
+**`medium_route_running_rating`**
+
+Player's Medium Route Running Rating
+
+**`deep_route_running_rating`**
+
+Player's Deep Route Running Rating
+
+**`tackle_rating`**
+
+Player's Tackle Rating
+
+**`pursuit_rating`**
+
+Player's Pursuit Rating
+
+**`press_rating`**
+
+Player's Press Rating
+
+**`play_recognition_rating`**
+
+Player's Play Recognition Rating
+
+**`man_coverage_rating`**
+
+Player's Main Coverage Rating
+
+**`zone_coverage_rating`**
+
+Player's Zone Coverage Rating
+
+**`hit_power_rating`**
+
+Player's Hit Power Rating
+
+**`lead_block_rating`**
+
+Player's Lead Block Rating
+
+**`impact_blocking_rating`**
+
+Player's Impact Blocking Rating
+
+**`run_block_rating`**
+
+Player's Run Block Rating
+
+**`run_block_power_rating`**
+
+Player's Run Block Power Rating
+
+**`run_block_finesse_rating`**
+
+Player's Run Block Finesse Rating
+
+**`pass_block_rating`**
+
+Player's Pass Block Rating
+
+**`pass_block_power_rating`**
+
+Player's Pass Block Power Rating
+
+**`pass_block_finesse_rating`**
+
+Player's Pass Block Finesse Rating
+
+**`kick_return_rating`**
+
+Player's Kick Return Rating
+
+**`kick_power_rating`**
+
+Player's Kick Power Rating
+
+**`kick_accuracy_rating`**
+
+Player's Kick Accuracy Rating
+
+**`primary_key`**
+
+Primary Key Associated with the Madden Database Entry
